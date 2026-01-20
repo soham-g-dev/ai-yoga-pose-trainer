@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yoga Pose Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🧘 AI Yoga Pose Trainer</h1>
+
+    <div class="container">
+        <!-- Live Camera -->
+        <div class="video-box">
+            <img src="http://127.0.0.1:5000/video_feed" alt="Yoga Feed">
+        </div>
+
+        <!-- Feedback Panel -->
+        <div class="feedback-box">
+            <h2>Posture Feedback</h2>
+            <p id="message">Waiting for pose...</p>
+
+            <div class="accuracy">
+                Accuracy: <span id="accuracy">0</span>%
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
